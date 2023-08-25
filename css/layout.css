@@ -1,0 +1,142 @@
+h1  {
+    font-weight: 700;
+    color: #515769;
+    margin: 0 0 15px;
+    font-size: 70px;
+    
+    
+}
+
+h2, h3, h4, h5, h6{
+    font-weight: 700;
+    color: #515769;
+    margin: 20px 0 15px;
+    font-size: 20px;
+    
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top:0;
+}
+
+.logo img{
+    width: 30%;
+}
+
+.container{
+    width: 50%;
+}
+
+
+
+.top-menu li a::after{
+    position: relative;
+    content: '';
+    margin-right: 5px;
+    float: left;
+    display: block;
+    top: 12px;
+    width: 9px;
+    background-color: #F270BB;
+    height: 2px;
+    transition: all .3s;
+    transform: scale(0);
+}
+.top-menu li a:hover::after{
+    transform: scale(1);
+}
+
+
+
+.bg-primary{
+    padding-top: 250px;
+}
+
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.promo-block .promo-block-title {
+	font-size: 50px;
+	line-height: 1;
+    
+}
+@media (max-width:480px) {
+	.promo-block .promo-block-title {
+		font-size: 50px;
+        
+	}
+}
+.promo-block .promo-block-text {
+	font-size: 25px;
+}
+
+.promo-block .promo-block-img-wrap {
+    position: relative;
+    height: 300px;
+}
+
+.promo-block .promo-block-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.about{
+    
+        background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+
+
+.content-lg{
+    padding-top: 100px;
+
+}
+
+.cvetok img{
+    width: 100%;
+    }
+
+.yogapictures{
+    padding-top: 40px;
+    display: flex;
+}
+
+
+.col-4{
+    text-align: center;
+}
+
+.work2{
+    display: inline-block;
+    padding: 11px;
+      
+}
+
+.yoga{
+    width: 100%;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    padding: 11px;
+    background-color: aliceblue;
+     
+}
+
+.logofooter img{
+    height: 60px;
+}
